@@ -1,0 +1,106 @@
+:root {
+  --b: #084f70;
+  --w: 	#c8d6e6;
+--h: 'font-family': 'Open Sans', sans-serif;
+--gras:300;
+--regular:400;
+--light:400;
+--fine:100;
+--value:10px;
+}
+
+.bleu{
+    background-color: var(--b);
+}
+.blanc{
+    background-color: var(--w);
+    padding-top: 18vh;
+}
+
+section {
+    padding: var(--value);
+  min-height: 100vh;
+}
+.bas{
+    min-height: 39vh;
+}
+
+h1{
+    font-family: var(--hg);
+    font-weight: var(--gras);
+    color: var(--jaune);
+}
+p{
+    font-family: var(--h);
+    font-weight: var(--normal);
+    padding-left: 0px;
+    text-align: left;
+}
+main{
+    background:rgb(10, 236, 142);
+    padding-left: 0;
+    padding-right: 0;
+}
+
+figure{
+    width: 262px;
+    height: 280px;
+    margin: 5% auto;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+h2{
+    color: rgb(223, 233, 233);
+    font-weight: var(--fine);
+    font-size: 14px;
+    text-align: center;
+    font-family: var(--h);
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+li{
+    
+    display: block;
+    height: 5vh;
+    width: 100%;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: beige;
+}
+#metier, h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bolder;
+}
+hgroup{
+    margin-bottom: 8vh;
+}
+.gauche{
+    padding-top: 20px;
+    margin-top: 100px;
+}
+h3{
+    text-align: center;
+}
+.g{
+
+    text-align: left;
+}
+.T{
+    text-align: left;
+}
+h6{
+    text-align: left;
+}
+img{
+    width: 279px;
+    height: auto;
+}
